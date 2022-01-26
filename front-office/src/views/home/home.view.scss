@@ -1,0 +1,57 @@
+div#home{
+    width: 100%;
+    min-height: 100%;
+    color: white;
+    div.main-container{
+        background-color: black;
+        padding-left: 50px;
+        padding-bottom: 50px;
+        div.div-title{
+            position: relative;
+            z-index: 100000;
+        }
+        div#bg{
+            width: 100%;
+            height: 700px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: url(../../assets/home-5-bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            div.image{
+                width: 100%;
+                height: 700px;
+                background: linear-gradient(to bottom, #00000099, #000000);
+                backdrop-filter: blur(0px);
+            }
+        }
+        position: absolute;
+        width: 100%;
+        height: max-content;
+        top: 0;
+        padding-top: 20px;
+        div.row.main-row{
+            margin-top: 100px;
+            div.col-sm-6{
+                div.divider{
+                    width: 1px;
+                    height: 320px;
+                    background-color: rgba(255, 255, 255, 0.253);
+                    margin-top: 75px;
+                    position: absolute;
+                }
+            }
+
+            div.col-sm-6.decoration{
+                display: flex;
+                justify-content: center; 
+                align-items: center; 
+                z-index: 10000;
+                flex-direction: column;
+            }
+        }
+    }
+
+}

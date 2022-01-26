@@ -1,0 +1,49 @@
+div#navbar{
+    position: fixed;
+    height: 100%;
+    width: 50px;
+    background-color: #55555522;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
+    backdrop-filter: blur(10px);
+    
+    div.separator{
+        margin-top: 10px;
+        width: 30px;
+        height: 1px;
+        background-color: #ffffff55;
+    }
+
+    div.menu{
+        margin-top: 30px;
+        div.cursor{
+            width: 50px;
+            height: 50px;
+            background-color: #22ff88bb;
+            position: relative;
+            margin-top: -50px;
+            transform: translateY(50px);
+            z-index: -10000;
+            transition: transform 200ms;
+        }
+        div.item{
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            cursor: pointer;
+            transition: background-color 200ms;
+        }
+
+        div.item:hover{ background-color: #ffffff22; }
+
+        div.item:active{ background-color: transparent; }
+    }
+}
