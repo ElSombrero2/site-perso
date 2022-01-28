@@ -1,0 +1,181 @@
+[
+    {
+        "default": [
+            {
+                "name": "Javascript",
+                "description": "JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.",
+                "logo": "logo/langage/js.png",
+                "level": 4
+            },
+            {
+                "name": "Typescript",
+                "description": "TypeScript is a programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. TypeScript is designed for the development of large applications and transcompiles to JavaScript. As TypeScript is a superset of JavaScript, existing JavaScript programs are also valid TypeScript programs.",
+                "logo": "logo/langage/ts.jpg",
+                "level": 4
+            },
+            {
+                "name": "C/C++",
+                "description": "C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or 'C with Classes'. The language has expanded significantly over time, and modern C++ now has object-oriented, generic, and functional features in addition to facilities for low-level memory manipulation. It is almost always implemented as a compiled language, and many vendors provide C++ compilers, including the Free Software Foundation, LLVM, Microsoft, Intel, Oracle, and IBM, so it is available on many platforms.",
+                "logo": "logo/langage/cpp.png",
+                "level": 4
+            },
+            {
+                "name": "Java",
+                "description": "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need to recompile. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture. The syntax of Java is similar to C and C++, but has fewer low-level facilities than either of them. The Java runtime provides dynamic capabilities (such as reflection and runtime code modification) that are typically not available in traditional compiled languages. As of 2019, Java was one of the most popular programming languages in use according to GitHub, particularly for client–server web applications, with a reported 9 million developers.",
+                "logo": "logo/langage/java.png",
+                "level": 4
+            }
+        ],
+        "main": [
+            {
+                "name": "C#",
+                "description": "C# is a general-purpose, multi-paradigm programming language. C# encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines.",
+                "logo": "logo/langage/cs.png",
+                "level": 4
+            },
+            {
+                "name": "PHP",
+                "description": "PHP is a general-purpose scripting language geared towards web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994. The PHP reference implementation is now produced by The PHP Group. PHP originally stood for Personal Home Page, but it now stands for the recursive initialism PHP: Hypertext Preprocessor.",
+                "logo": "logo/langage/php.png",
+                "level": 3
+            },
+            {
+                "name": "Python",
+                "description": "Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.",
+                "logo": "logo/langage/python.png",
+                "level": 3
+            },
+            {
+                "name": "SQL",
+                "description": "SQL (Structured Query Language) is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS). It is particularly useful in handling structured data, i.e. data incorporating relations among entities and variables. SQL offers two main advantages over older read–write APIs such as ISAM or VSAM. Firstly, it introduced the concept of accessing many records with one single command. Secondly, it eliminates the need to specify how to reach a record, e.g. with or without an index.",
+                "logo": "logo/langage/sql.png",
+                "level": 4
+            }
+        ]
+    },
+    {
+        "default": [
+            {
+                "name": "Node.js",
+                "description": "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a 'JavaScript everywhere' paradigm, unifying web-application development around a single programming language, rather than different languages for server-side and client-side scripts.",
+                "logo": "logo/techno/node.png",
+                "level": 4
+            },
+            {
+                "name": "Unity",
+                "description": "Unity is a cross-platform game engine developed by Unity Technologies, first announced and released in June 2005 at Apple Inc.'s Worldwide Developers Conference as a Mac OS X-exclusive game engine. The engine has since been gradually extended to support a variety of desktop, mobile, console and virtual reality platforms. It is particularly popular for iOS and Android mobile game development and used for games such as Pokémon Go, Monument Valley, Call of Duty: Mobile, Beat Saber and Cuphead. It is considered easy to use for beginner developers and is popular for indie game development",
+                "logo": "logo/techno/unity.png",
+                "level": 4
+            },
+            {
+                "name": "Vue",
+                "description": "Vue.js (commonly referred to as Vue, like 'view') is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications.[11] It was created by Evan You, and is maintained by him and the rest of the active core team members.",
+                "logo": "logo/techno/vue.png",
+                "level": 4
+            },
+            {
+                "name": "Angular",
+                "description": "Angular (commonly referred to as 'Angular 2+' or 'Angular CLI') is a TypeScript-based free and open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.",
+                "logo": "logo/techno/angular.png",
+                "level": 4
+            }
+        ],
+        "main": [
+            {
+                "name": "React / React Native",
+                "description": "React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library[3] for building user interfaces based on UI components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications. However, React is only concerned with state management and rendering that state to the DOM, so creating React applications usually requires the use of additional libraries for routing, as well as certain client-side functionality.",
+                "logo": "logo/techno/react.png",
+                "level": 4
+            },
+            {
+                "name": "Spring",
+                "description": "The Spring Framework is an application framework and inversion of control container for the Java platform. The framework's core features can be used by any Java application, but there are extensions for building web applications on top of the Java EE (Enterprise Edition) platform. Although the framework does not impose any specific programming model, it has become popular in the Java community as an addition to the Enterprise JavaBeans (EJB) model. The Spring Framework is open source.",
+                "logo": "logo/techno/spring.png",
+                "level": 4
+            },
+            {
+                "name": "Android",
+                "description": "Android is a mobile operating system based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile devices such as smartphones and tablets. Android is developed by a consortium of developers known as the Open Handset Alliance and commercially sponsored by Google. It was unveiled in November 2007, with the first commercial Android device, the HTC Dream, being launched in September 2008.",
+                "logo": "logo/techno/android.png",
+                "level": 4
+            },
+            {
+                "name": "Laravel",
+                "description": "Laravel is a free, open-source PHP web framework, created by Taylor Otwell and intended for the development of web applications following the model–view–controller (MVC) architectural pattern and based on Symfony. Some of the features of Laravel are a modular packaging system with a dedicated dependency manager, different ways for accessing relational databases, utilities that aid in application deployment and maintenance, and its orientation toward syntactic sugar.",
+                "logo": "logo/techno/laravel.png",
+                "level": 3
+            }
+        ]
+    },
+    {
+        "default": [
+            {
+                "name": "MongoDB",
+                "description": "MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. MongoDB is developed by MongoDB Inc. and licensed under the Server Side Public License (SSPL).",
+                "logo": "logo/database/mongodb.png",
+                "level": 4
+            },
+            {
+                "name": "MySQL",
+                "description": "MySQL is an open-source relational database management system (RDBMS). Its name is a combination of 'M', the name of co-founder Michael Widenius's daughter, and 'SQL', the abbreviation for Structured Query Language. A relational database organizes data into one or more data tables in which data types may be related to each other; these relations help structure the data. SQL is a language programmers use to create, modify and extract data from the relational database, as well as control user access to the database. In addition to relational databases and SQL, an RDBMS like MySQL works with an operating system to implement a relational database in a computer's storage system, manages users, allows for network access and facilitates testing database integrity and creation of backups.",
+                "logo": "logo/database/mysql.png",
+                "level": 4
+            },
+            {
+                "name": "PostgreSQL",
+                "description": "PostgreSQL, also known as Postgres, is a free and open-source relational database management system (RDBMS) emphasizing extensibility and SQL compliance. It was originally named POSTGRES, referring to its origins as a successor to the Ingres database developed at the University of California, Berkeley. In 1996, the project was renamed to PostgreSQL to reflect its support for SQL. After a review in 2007, the development team decided to keep the name PostgreSQL and the alias Postgres.",
+                "logo": "logo/database/pgsql.png",
+                "level": 4
+            },
+            {
+                "name": "MS SQL (SQL Server)",
+                "description": "Microsoft SQL Server is a relational database management system developed by Microsoft. As a database server, it is a software product with the primary function of storing and retrieving data as requested by other software applications—which may run either on the same computer or on another computer across a network (including the Internet). Microsoft markets at least a dozen different editions of Microsoft SQL Server, aimed at different audiences and for workloads ranging from small single-machine applications to large Internet-facing applications with many concurrent users.",
+                "logo": "logo/database/mssql-nwedt.png",
+                "level": 4
+            }
+        ],
+        "main": [
+            {
+                "name": "Amazon Web Service",
+                "description": "Amazon Web Services, Inc. (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis. These cloud computing web services provide a variety of basic abstract technical infrastructure and distributed computing building blocks and tools. One of these services is Amazon Elastic Compute Cloud (EC2), which allows users to have at their disposal a virtual cluster of computers, available all the time, through the Internet. AWS's virtual computers emulate most of the attributes of a real computer, including hardware central processing units (CPUs) and graphics processing units (GPUs) for processing; local/RAM memory; hard-disk/SSD storage; a choice of operating systems; networking; and pre-loaded application software such as web servers, databases, and customer relationship management (CRM).",
+                "logo": "logo/devops/aws.png",
+                "level": 4
+            },
+            {
+                "name": "Docker",
+                "description": "Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels. Because all of the containers share the services of a single operating system kernel, they use fewer resources than virtual machines.",
+                "logo": "logo/devops/docker.png",
+                "level": 3
+            },
+            {
+                "name": "Git",
+                "description": "Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems).",
+                "logo": "logo/devops/git.png",
+                "level": 3
+            },
+            {
+                "name": "Jenkins",
+                "description": "Jenkins is an open source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration and continuous delivery. It is a server-based system that runs in servlet containers such as Apache Tomcat. It supports version control tools, including AccuRev, CVS, Subversion, Git, Mercurial, Perforce, ClearCase and RTC, and can execute Apache Ant, Apache Maven and sbt based projects as well as arbitrary shell scripts and Windows batch commands.",
+                "logo": "logo/devops/jenkins.png",
+                "level": 4
+            }
+        ]
+    },
+    {
+        "default": [
+            {
+                "name": "Adobe XD",
+                "description": "Adobe XD (also known as Adobe Experience Design) is a vector-based user experience design tool for web apps and mobile apps, developed and published by Adobe Inc. It is available for macOS and Windows, although there are versions for iOS and Android to help preview the result of work directly on mobile devices. Adobe XD enables website wireframing and creating click-through prototypes.",
+                "logo": "logo/design-logo/adobexd.png",
+                "level": 4
+            },
+            {
+                "name": "Figma",
+                "description": "Figma is a vector graphics editor and prototyping tool which is primarily web-based, with additional offline features enabled by desktop applications for macOS and Windows. The Figma mobile app for Android and iOS allow viewing and interacting with Figma prototypes in real-time on mobile devices. The feature set of Figma focuses on use in user interface and user experience design, with an emphasis on real-time collaboration.",
+                "logo": "logo/design-logo/figma.png",
+                "level": 4
+            }
+        ],
+        "main": []
+    }
+]

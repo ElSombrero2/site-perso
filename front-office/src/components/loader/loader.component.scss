@@ -1,0 +1,14 @@
+div#loader{
+    position: fixed;
+    z-index: 10000000;
+    background: #00000088;
+    backdrop-filter: blur(20px);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: display 500ms;
+}

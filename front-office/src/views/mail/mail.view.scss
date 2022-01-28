@@ -15,7 +15,7 @@ div#mail{
             position: absolute;
             top: 0;
             left: 0;
-            background: url(../../assets/mail-bg.jpg);
+            background: url(../../assets/home-2-bg.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -29,6 +29,14 @@ div#mail{
         div.container.sender-item{
             margin-top: 120px;
             padding-left: 150px;
+        }
+        a.has-text-white{ transition: all 200ms;}
+        a.has-text-white:hover{
+            opacity: 0.5;
+        }
+
+        a.has-text-white:active{
+            opacity: 0.1;
         }
     }
 

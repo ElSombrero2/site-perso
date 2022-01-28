@@ -1,6 +1,7 @@
 import Code from '@/views/code/code.view.vue'
 import Home from '@/views/home/home.view.vue'
 import Mail from '@/views/mail/mail.view.vue'
+import Project from '@/views/project/project.view.vue'
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
 
@@ -18,9 +19,14 @@ const routes: Array<RouteConfig> = [
     component: Mail
   },
   {
-    path: '/code',
+    path: '/code/:index',
     name: 'Code',
     component: Code
+  },
+  {
+    path: '/project',
+    name: 'Project',
+    component: Project
   }
 ]
 

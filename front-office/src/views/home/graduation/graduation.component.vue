@@ -1,6 +1,6 @@
 <template>
     <div class="row main-row">
-        <div class="col-sm-6">
+        <div class="col-sm-6" data-aos="fade-left" data-aos-duration="800ms">
           <div class="divider" style="position: relative; float: right;left: 20px;">
           </div>
           <div class="introduction container">
@@ -48,7 +48,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-6 decoration">
+        <div class="col-sm-6 decoration" data-aos="fade-right" data-aos-duration="800ms">
           <i class="fas fa-user-graduate fa-8x"></i>
           <p class="is-size-3">Graduations</p>
         </div>

@@ -4,7 +4,7 @@ div#home{
     color: white;
     div.main-container{
         background-color: black;
-        padding-left: 50px;
+        padding-left: 100px;
         padding-bottom: 50px;
         div.div-title{
             position: relative;
@@ -12,18 +12,18 @@ div#home{
         }
         div#bg{
             width: 100%;
-            height: 700px;
+            height: 1300px;
             position: absolute;
             top: 0;
             left: 0;
-            background: url(../../assets/home-5-bg.jpg);
+            background: url(../../assets/home-bg.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
             div.image{
                 width: 100%;
-                height: 700px;
-                background: linear-gradient(to bottom, #00000099, #000000);
+                height: 1300px;
+                background: linear-gradient(to bottom, #000000bb, #000000);
                 backdrop-filter: blur(0px);
             }
         }

@@ -1,11 +1,11 @@
 <template>
     <div class="row main-row">
-        <div class="col-sm-6 decoration">
+        <div class="col-sm-6 decoration" data-aos="fade-left" data-aos-duration="800ms">
           <i class="fa fa-user fa-8x has-text-white"></i>
           <br>
           <p class="is-size-3">Profile</p>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6" data-aos="fade-right" data-aos-duration="800ms">
           <div class="divider">
           </div>
           <div class="introduction container" style="margin-left: 40px;">
